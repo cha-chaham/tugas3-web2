@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tugas Pemrograman Web 2</title>
+    <style>
+        body {
+            color: white;
+            font-family: sans-serif;
+            
+            width: 50%;
+            padding: 40px 65px;
+            background: rgba(255, 255, 255, 0.25);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5.8px);
+            -webkit-backdrop-filter: blur(5.8px);
+            border: 1px solid rgba(255, 255, 255, 0.27);
+            margin: auto;
+            margin-top: 125px;
+            background-image: url(Assets/bg-index.jpg);
+            background-size:cover;
+        }
+
+        .konten {
+            display: block;
+            text-align: center;
+        }
+
+        .konten h1 {
+            margin-bottom: 50px;
+        }
+
+        .menu {
+            display: flex;
+            padding: 15px 10px;
+            flex-direction: column;
+        }
+
+        .button {
+            color: black;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform:uppercase;
+            background-color: white;
+            border-radius: 6px;
+            padding: 25px 60px;
+            margin-bottom: 30px;
+            margin-right: 10px;
+            transition: 0.5s;
+        }
+
+        #pythagoras:hover {
+            box-shadow: -2px 30px 19px -15px rgba(66,40,209,255);
+            -webkit-box-shadow: -2px 30px 19px -15px rgba(66,40,209,255);
+            -moz-box-shadow: -2px 30px 19px -15px rgba(66,40,209,255);
+            transition: 0.5s;
+            transform: translateY(-5px);
+        }
+
+        #volume_tabung:hover {
+            box-shadow: -2px 30px 19px -15px rgba(115,24,127,255);
+            -webkit-box-shadow: -2px 30px 19px -15px rgba(115,24,127,255);
+            -moz-box-shadow: -2px 30px 19px -15px rgba(115,24,127,255);
+            transition: 0.5s;
+            transform: translateY(-5px);
+        }
+
+        #keliling_lingkaran:hover{
+            box-shadow: -2px 30px 19px -15px rgba(221,5,104,255);
+            -webkit-box-shadow: -2px 30px 19px -15px rgba(221,5,104,255);
+            -moz-box-shadow: -2px 30px 19px -15px rgba(221,5,104,255);
+            transition: 0.5s;
+            transform: translateY(-5px);
+        }
+
+        #luas_lingkaran:hover {
+            box-shadow: -2px 30px 19px -15px rgba(249,59,33,255);
+            -webkit-box-shadow: -2px 30px 19px -15px rgba(249,59,33,255);
+            -moz-box-shadow: -2px 30px 19px -15px rgba(249,59,33,255);
+            transition: 0.5s;
+            transform: translateY(-5px);
+        }
+
+        #konversi_usdtoidr:hover {
+            box-shadow: -2px 30px 19px -15px rgba(255,192,33,255);
+            -webkit-box-shadow: -2px 30px 19px -15px rgba(255,192,33,255);
+            -moz-box-shadow: -2px 30px 19px -15px rgba(255,192,33,255);
+            transition: 0.5s;
+            transform: translateY(-5px);
+        }
+
+        #konversi_idrtousd:hover {
+            box-shadow: -2px 30px 19px -15px rgba(58,219,188,255);
+            -webkit-box-shadow: -2px 30px 19px -15px rgba(58,219,188,255);
+            -moz-box-shadow: -2px 30px 19px -15px rgba(58,219,188,255);
+            transition: 0.5s;
+            transform: translateY(-5px);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="konten">
+        <h1>Program PHP Sederhana</h1>
+        <div class="menu">
+            <a href="pythagoras.php" class="button" id="pythagoras">Menghitung Pythagoras</a>
+            <a href="v_tabung.php" class="button" id="volume_tabung">Menghitung Volume Tabung</a>
+            <a href="k_lingkaran.php" class="button" id="keliling_lingkaran">Menghitung Keliling Lingkaran</a>
+            <a href="l_lingkaran.php" class="button" id="luas_lingkaran">Menghitung Luas Lingkaran</a>
+            <a href="usd_idr.php" class="button" id="konversi_usdtoidr">Konversi Mata Uang Dollar ke Rupiah</a>
+            <a href="idr_usd.php" class="button" id="konversi_idrtousd">Konversi Mata Uang Rupiah ke Dollar</a>
+        </div>
+
+        <p>Dibuat oleh Charlie Christian Hamdani - F55120048 - Kelas B</p>
+    </div>
+</body>
+</html>
